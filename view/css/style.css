@@ -1,0 +1,118 @@
+
+body {
+    font-family: arial;
+    font-size: 15px;
+    line-height: 2em;
+    background: #898a95 !important;
+    padding: 30px;
+}
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+label {
+    display: inline-block;
+    width: 180px;
+}
+
+input[type='text'] {
+    width: 97%;
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px #ccc solid;
+    float: right;
+}
+
+input[type='number'] {
+    float: right;
+    width: 10%;
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px #ccc solid;
+}
+
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+header {
+    margin-top: 10px;
+    border-bottom: 3px #f4f4f4 solid;
+    text-align: center;
+}
+
+main {
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+footer {
+    margin-top: 10px;
+    border-top: 3px #f4f4f4 solid;
+    text-align: center;
+}
+
+a.start{
+    display: inline-block;
+    color: #666 !important;
+    background:#f4f4f4 !important;
+    padding: 15px !important;
+    margin: 15px !important;
+}
+
+.current {
+    padding: 10px;
+    background: f4f4f4;
+    border: #ccc dotted 2px;
+    margin: 20px 0 10px 0;
+}
+.currentHeader {
+    padding: 10px;
+    background: #39393f;
+    border: #ccc dotted 2px;
+    margin: 20px 0 10px 0;
+    color: aliceblue;
+}
+
+input {
+    background-color: #f4f4f4
+}
+
+table, th, td {
+    border: 1px dotted #f4f4f4;
+}
+
+table {
+    margin: 5px;
+    padding: 5px;
+    width: 31%;
+}
+
+tr td {
+    padding: 1px 2px 1px 2px;
+    height: 100%;
+    text-align: center;
+}
+.extra_space {
+    margin: 15px !important;
+    padding: 15px !important;
+}
+
+@media only screen and (max-width:960px) {
+    .container {
+        width: 80%;
+    }
+}
+
+
+
+
+
+
